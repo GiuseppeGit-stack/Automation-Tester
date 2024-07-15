@@ -53,9 +53,13 @@ checkout_button = driver.find_element(By.XPATH,"/html/body/div/div/div/div[2]/di
 sleep(6)
 checkout_button = driver.find_element(By.XPATH,"/html/body/div/div/div/div[2]/div/form/div[2]/input")
 checkout_button.click()
-checkout_button = driver.find_element(By.XPATH,"/html/body/div/div/div/div[2]/div/form/div[2]/input")
+sleep(5)
+checkout_button = driver.find_element(By.XPATH,"/html/body/div/div/div/div[2]/div/div[2]/div[9]/button[2]")
 checkout_button.click()
-
+sleep(5)
+checkout_button = driver.find_element(By.XPATH,"/html/body/div/div/div/div[2]/button")
+checkout_button.click()
+sleep(5)
 
 driver.quit()
 
